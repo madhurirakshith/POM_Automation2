@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.fixture(scope='class')
 def test_setup(request):
     from selenium import webdriver
